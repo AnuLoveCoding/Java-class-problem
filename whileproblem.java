@@ -19,11 +19,9 @@ public class whileproblem {
         else if(n<0){
             n=-n;
         }
-        while(n>0){
-            Long rem = n%10L;
-            System.out.print(rem+" ");
-            
-            n/=10;
-        }
+          for(;n>0;n/=10){
+           long rem = n%10;
+        System.out.print(rem+" ");
+       }
     }
 }
