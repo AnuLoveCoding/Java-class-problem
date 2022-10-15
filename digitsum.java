@@ -1,5 +1,5 @@
 import java.util.*;
-public class digitsum {
+public class digitSum {
     public static void main(String[] args) {
         Scanner scn = new Scanner(System.in);
 
