@@ -4,9 +4,9 @@ public class sum {
         Scanner scn = new Scanner(System.in);
 
 
-        System.out.println("Enter Your Number");
-        int n = scn.nextInt();
-        int sum_odd=0 , sum_even=0 , count1=0 , count=0;
+        // System.out.println("Enter Your Number");
+        // int n = scn.nextInt();
+        // int sum_odd=0 , sum_even=0 , count1=0 , count=0;
         
         // print the sum of n;
         // int sum =0;
@@ -19,25 +19,39 @@ public class sum {
         // System.out.println(sum);
 
 
-            // find the odd-digit and sum or find the even-digit and sum;
+            // find the odd-digit and sum or  the even-digit and sum;
 
-            for( int i = 0;n>i;n/=10){
-                int digit = n%10;
-                if(digit%2==0){
-                    sum_even += n%10;
-                    count++;
-                }else if(digit%2!=0){
-                    sum_odd += n%10;
-                    count1++;
-                }
-            }
-            System.out.println("The sum of odd is "+sum_odd);
+            // for( int i = 0;n>i;n/=10){
+            //     int digit = n%10;
+            //     if(digit%2==0){
+            //         sum_even += n%10;
+            //         count++;
+            //     }else if(digit%2!=0){
+            //         sum_odd += n%10;
+            //         count1++;
+            //     }
+            // }
+            // System.out.println("The sum of odd is "+sum_odd);
             
-            System.out.println("The count1 of odd is "+count1);
-            System.out.println("+++++++++++++++++++");
-            System.out.println("The sum of even is "+sum_even);
-            System.out.println("The count of even is "+count);
+            // System.out.println("The count1 of odd is "+count1);
+            // System.out.println("+++++++++++++++++++");
+            // System.out.println("The sum of even is "+sum_even);
+            // System.out.println("The count of even is "+count);
 
+            // print the sum and odd 1 to n;
+
+                // int n= 10;
+                // int sum_odd=0 , sum_even=0;
+
+                // for( int i=1;i<=n;i++){
+                //     if(i%2==0){
+                //         sum_even+=i;
+                //     }else if(i%2!=0){
+                //         sum_odd+=i;
+                //     }
+                // }
+                // System.out.println(sum_even);
+                // System.out.println(sum_odd);
 
 
     }
