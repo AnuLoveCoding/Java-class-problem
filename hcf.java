@@ -36,7 +36,19 @@ public class hcf {
         //     a/=10;
         // }
 
+        // find the last digit and first digit of number;
 
+        int a = 4561327;
+        int Last_digit = a%10;
+        int first_digit =0;
+
+            while(a>0){
+                int rem = a%10;
+                first_digit= rem;
+                a/=10;
+            }
+            System.out.println("The first digit of number: "+first_digit);
+            System.out.println("The Last_digit of number: "+Last_digit);
 
 
 
