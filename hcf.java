@@ -16,16 +16,25 @@ public class hcf {
         // // System.out.println("Your HCF is: ");
         // System.out.println("Your HCF is: "+h1);
 
+     //    find the sum of digit ;
+        // int a = 78945;
+        // int sum =0;
+        // while(a>0){
+        //     int d = a%10;
+        //      sum+=d;
+        //      a/=10;
+        // }
+        // System.out.println(sum);
 
-        int a = 78945;
-        int sum =0;
-        while(a>0){
-            int d = a%10;
-             sum+=d;
-             a/=10;
-        }
-        System.out.println(sum);
+        //  find the last of and print in reverse direction;
 
+        // int a =85412;
+
+        // while(a>0){
+        //     int rem = a%10;
+        //     System.out.print(rem+" ");
+        //     a/=10;
+        // }
 
 
 
