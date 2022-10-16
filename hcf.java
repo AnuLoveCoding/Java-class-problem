@@ -53,22 +53,22 @@ public class hcf {
 
         // You given a number(N) find the sum_odd digit and even_odd digit and also count it ;
 
-        int N = 4546555;
-        int sum_odd = 0 , count =0;
-        int sum_even = 0 , count1=0;
-        while(N>0){
-            int rem = N%10;
-             if(rem%2==0){
-                sum_even+=N%10;
-                count1++;
-             }else if(rem%2!=0){
-                sum_odd+=N%10;
-                count++;
-             }
-             N/=10;
-        }
-        System.out.println(count1+":sum_even is "+sum_even);
-        System.out.println(count+":sum_even is "+sum_odd);
+        // int N = 4546555;
+        // int sum_odd = 0 , count =0;
+        // int sum_even = 0 , count1=0;
+        // while(N>0){
+        //     int rem = N%10;
+        //      if(rem%2==0){
+        //         sum_even+=N%10;
+        //         count1++;
+        //      }else if(rem%2!=0){
+        //         sum_odd+=N%10;
+        //         count++;
+        //      }
+        //      N/=10;
+        // }
+        // System.out.println(count1+":sum_even is "+sum_even);
+        // System.out.println(count+":sum_even is "+sum_odd);
      
 
 
