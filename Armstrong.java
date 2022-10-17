@@ -49,5 +49,41 @@ public class Armstrong {
         //     }
         // }
 
+
+        // Find the Armstrong Number 1 to N (inclusive);
+
+        System.out.println("Enter Your Number :");
+        int N = scn.nextInt(); // User Give Number where find the Armstrong is or not;
+        for(int i = 1;i<=N;i++){
+
+            int sum = 0;
+            int n = i;
+            int temp = n;
+
+            for(;n>0;n/=10){
+                int rem = n%10;
+                sum+=rem*rem*rem;
+            }
+
+            if (i==sum){
+                System.out.println("Number is Armstrong " + i);
+            }
+            // else{
+            //     System.out.println("Number is Not Armstrong");
+            // }
+    
+        }
+
+       
+
+
+
+
+
+
+
+
+
+
     }
 }
