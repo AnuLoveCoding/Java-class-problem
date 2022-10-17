@@ -11,7 +11,7 @@ public class pattern {
 
         for(int i=1;i<=5;i++){
             
-            bag+="*"+"\t";
+            bag+="*\t";
 
             System.out.println(bag);
         }
