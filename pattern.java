@@ -7,9 +7,13 @@ public class pattern {
     public static void main(String[] args) {
         Scanner scn = new Scanner(System.in);
 
-        String bag= "";
 
-        for(int i=1;i<=5;i++){
+        System.out.println("Enter Your Number: ");
+        int N = scn.nextInt();
+        String bag= "";
+        System.out.println("Star of Pattern Number:");
+
+        for(int i=1;i<=N;i++){
             
             bag+="*\t";
 
