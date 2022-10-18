@@ -8,17 +8,17 @@ public class pattern {
         Scanner scn = new Scanner(System.in);
 
 
-        System.out.println("Enter Your Number: ");
-        int N = scn.nextInt();
-        String bag= "";
-        System.out.println("Star of Pattern Number:");
+        // System.out.println("Enter Your Number: ");
+        // int N = scn.nextInt();
+        // String bag= "";
+        // System.out.println("Star of Pattern Number:");
 
-        for(int i=1;i<=N;i++){
+        // for(int i=1;i<=N;i++){
             
-            bag+="*\t";
+        //     bag+="*\t";
 
-            System.out.println(bag);
-        }
+        //     System.out.println(bag);
+        // }
        
 
         //  print the pattern 
@@ -29,6 +29,33 @@ public class pattern {
         //     }
         //     System.out.println();
         // }
+
+
+       
+        //    Star printing Concepts// Using nested Loop;
+        for(int i=1;i<=4;i++){
+            for(int j=1;j<=6;j++){
+                System.out.print("* ");
+            }
+            System.out.println();
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
     }
