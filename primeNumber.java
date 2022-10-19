@@ -8,11 +8,11 @@ public class primeNumber {
         Scanner scn = new Scanner(System.in);
   
         System.out.println("Enter Your Number");
-        int N = scn.nextInt();
+        // int N = scn.nextInt();
 
-      for(int j=1;j<=N;j++){
+    //   for(int j=1;j<=N;j++){
 
-        int n = j;
+        int n = 17;
         int factor = 0;
 
         for(int i=1;i<=n;i++){
@@ -21,11 +21,11 @@ public class primeNumber {
             }
         }
         if(factor==2){
-            System.out.println(factor+":Number is prime");
+            System.out.println(":Number is prime");
         }else{
-            System.out.println(factor +":Number is not prime");
+            System.out.println(":Number is not prime");
         }
-      }
+    //   }
         
     }
 }
