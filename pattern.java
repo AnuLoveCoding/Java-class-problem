@@ -48,27 +48,38 @@ public class pattern {
         //     System.out.println();
         // }
 
-
-        // for(int i=5;i>0;i--){
-        //     for(int j=1;j<=i;j++){
-        //         System.out.print("*\t");
-        //     }
-        //    System.out.println();
-        // }
-
-
-
-
-            for(int i=1;i<=10;i++){
+            // reverse stair case star printing;
+            for(int i=5;i>0;i--){
                 for(int j=1;j<=i;j++){
-                    if(j%2==0){
-                        System.out.print(" "+j);
-                    }else{
-                        System.out.print(" *");
-                    }
+                    System.out.print("*\t");
+                }
+            System.out.println();
+            }
+
+
+
+
+            // for(int i=1;i<=10;i++){
+            //     for(int j=1;j<=i;j++){
+            //         if(j%2==0){
+            //             System.out.print(" "+j);
+            //         }else{
+            //             System.out.print(" *");
+            //         }
+            //     }
+            //     System.out.println();
+            // }
+
+                // reverse stair case star printing;
+            for(int i=1;i<=5;i++){
+                for(int j=1;j<=5-i;j++){
+                    System.out.print("*");
                 }
                 System.out.println();
             }
+
+
+
 
 
 
